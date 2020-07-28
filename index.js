@@ -27,7 +27,7 @@ client.on('ready',()=>{
     ]
     setInterval(function(){
             let status = statuses[Math.floor(Math.random() * statuses.length)];
-            client.user.setActivity(status, {type:"WATCHING"})
+            client.user.setActivity(status, {type:"WATCHING A&H PLAY"})
     
         }, 3000) //Seconds to Random
 
@@ -35,4 +35,4 @@ client.on('ready',()=>{
 
 });
 
-client.login("");
+client.login("NzM3NzA4ODQzOTE5OTk4OTc2.XyBS5g.cMnPpwORQVbGwe0Jclx-m0p4ecM");
